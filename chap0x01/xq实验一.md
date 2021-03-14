@@ -2,39 +2,39 @@
 ## 实验目的：无人值守虚拟机安装 
 ### 试验过程：
 - 在Ubuntu官网上下载好ubuntu-20.04.2-live-server-amd64.iso，并且导入虚拟机手动安装好一个系统
-![1](手动安装虚拟机并登陆.png)
+![1](img/手动安装虚拟机并登陆.png)
     - - - 
 - 在cmd界面ssh刚装好的虚拟机
-![2](ssh刚装好的虚拟机.png)
+![2](img/ssh刚装好的虚拟机.png)
     - - - 
 - 切换到root权限并且获取autoinstall-user-data文件
-![3](换权限并下载得到autoinstall-user-data文件.png)
-![4](上述操作2.png)
+![3](img/换权限并下载得到autoinstall-user-data文件.png)
+![4](img/上述操作2.png)
     - - - 
 - 对比老师所给的user-data文件修改下载到本地的autoinstall-user-data文件
-![5](对比修改autoinstall-user-data.png)
+![5](img/对比修改autoinstall-user-data.png)
     - - -
 - 将改好的autoinstall-user-data文件和新建的meta-data空文件传输到虚拟机中，
 **图示前面两步** ：在当前目录下打开Git bush面板输入指令
-![6](文件运输的三个主要操作.png)
+![6](img/文件运输的三个主要操作.png)
     - - - 
 - 下载cloud-image-utils插件并且合成iso文件
 - **合成iso文件成功之后记得pwd查看文件所在位置方便物理主机下载到本地**
-![7](安装cloud-image-utils.png)
-![8](生成iso文件成功并到所显示的文件夹.png)
+![7](img/安装cloud-image-utils.png)
+![8](img/生成iso文件成功并到所显示的文件夹.png)
     - - -
 - 将生成的iso文件传输下载到本地的目录下
 - **下图所示的第三条指令显示传输下载到物理主机的d盘的share文件夹**
-![9](文件运输的三个主要操作.png)
-![10](iso文件下载到d盘share文件夹.png)
+![9](img/文件运输的三个主要操作.png)
+![10](img/iso文件下载到d盘share文件夹.png)
 - 挂载生成的iso文件、原本的iso文件，无人值守安装虚拟机
-![11](无人值守虚拟机.png)
-![12](无人值守安装成功提示.png)
-![13](无人值守安装成功1.png)
-![14](无人值守安装成功登录进去.png)
+![11](img/无人值守虚拟机.png)
+![12](img/无人值守安装成功提示.png)
+![13](img/无人值守安装成功1.png)
+![14](img/无人值守安装成功登录进去.png)
     - - -
 - 验证
-![15](focal版可以ssh.png)
+![15](img/focal版可以ssh.png)
 实验完成 喜大普奔
     - - -
 ### 出现的问题&解决
